@@ -1,2 +1,2 @@
 # myportfolio
-THis is my portfolio. 
+This is my portfolio. https://popcopy.github.io/myportfolio/index.html 
