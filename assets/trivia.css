@@ -1,0 +1,14 @@
+.jumbotron {
+    color: white;
+    text-align: center;
+    background-image: url("image/retro.jpg");
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(37, 6, 6);
+}
+
+.container {
+    color: whitesmoke;
+  }
