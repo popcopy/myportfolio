@@ -1,5 +1,5 @@
 body{
-    background-image: url("image/lantern.jpg");
+    background-image: url("../image/lantern.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -17,7 +17,7 @@ nav {
     display: inline-block;
     padding-left: 15px;
     margin-left: 15px;
-    line-height: 18px;
+    line-height: 20px;
     color:black;
     border-left: 1px solid black;
 }
@@ -27,34 +27,30 @@ h2{
  font-family: 'Dancing Script', cursive; 
 }
 
-a{
-    color: black;
+#bio a{
+    color: rgb(89, 99, 87);
+    /* font-size: 18px; */
 }
-
-/* .container{
-    width: 1024px;
-    margin: 0 auto;
-} */
 #bio,
 #img{
    float: left; 
 }
-
 #bio{
     width: 70%;
 }
-
-/* #contact{
-    width: 30%;
-} */
-
 #img{
     margin-right: 20px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
 }
-.footer {
+footer {
+    clear: both;
     text-align: center;
     bottom: 0;
-    font-family: 'Open Sans Condensed', sans-serif;   
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding-top: 200px;
 }
+footer a{
+    color: black;
+}
+  

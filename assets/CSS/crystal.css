@@ -2,7 +2,7 @@ body{
   background-color: rgb(80, 101, 107);
 }
 #caveBackGrd {
-  background-image: url(image/cave.jpg);
+  background-image: url("../image/cave.jpg");
   font-family:'Courier New', Courier, monospace;
   text-align: center;
   color: rgb(255, 255, 255);

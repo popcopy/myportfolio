@@ -1,7 +1,7 @@
 .jumbotron {
     color: white;
     text-align: center;
-    background-image: url("image/retro.jpg");
+    background-image: url("../image/retro.jpg");
     background-size: cover;
 }
 
