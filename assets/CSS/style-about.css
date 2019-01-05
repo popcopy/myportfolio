@@ -21,15 +21,12 @@ nav {
     color:black;
     border-left: 1px solid black;
 }
-
 h2{
  font-size: 56px;
  font-family: 'Dancing Script', cursive; 
 }
-
 #bio a{
     color: rgb(89, 99, 87);
-    /* font-size: 18px; */
 }
 #bio,
 #img{
