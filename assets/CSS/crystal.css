@@ -7,6 +7,7 @@ body{
   text-align: center;
   color: rgb(255, 255, 255);
 }
+
 #reset:hover {
 	background-color:teal;
   border-color: black;
@@ -37,3 +38,66 @@ button:hover {
 #ranNumSec{
     color: azure;
 }
+
+
+/* small moblie */
+@media only screen and (max-width: 320px){
+
+  img{
+      /* margin-right: 20px; */
+      width: 100px;
+      height: 100px;
+      /* float: center; */
+  } 
+  h2{
+      font-size: 32px;
+      /* font-family: 'Dancing Script', cursive;  */
+      font-family: 'Merriweather', serif;
+  }  
+  h5{
+      font-size: 8px;
+  }
+  h3{
+    font-size: 8px;
+  }
+  p{
+    font-size: 8px;
+  }
+  body{
+    background-color: rgb(80, 101, 107);
+  }
+  
+}
+/* Mobile */
+@media only screen and (max-width: 480px){
+  img{
+    /* margin-right: 20px; */
+    width: 100px;
+    height: 100px;
+    /* float: center; */
+} 
+h2{
+    font-size: 32px;
+    /* font-family: 'Dancing Script', cursive;  */
+    font-family: 'Merriweather', serif;
+}  
+p{
+  font-size: 10px;
+}
+
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+ 
+}
+
+/* Desktop */
+@media only screen and (max-width: 992px){
+  
+}
+
+/* Huge
+@media only screen and (max-width: 1280px){
+
+}  */

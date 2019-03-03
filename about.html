@@ -7,14 +7,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Matthew Urian - Web Developer Portfolio</title>
   <!-- Bootstrap -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- CSS -->
   <link rel="stylesheet" href="assets/CSS/style-about.css">
   <!-- Google Font -->
@@ -23,34 +26,37 @@
 </head>
 
 <body>
-  <header>
+  <div class="container-fluid">
+    <header>
+      <div class="container">
+        <nav>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <!-- <a href="contact.html">Contact</a> -->
+          <a href="resume.pdf">Resume</a>
+        </nav>
+      </div>
+    </header>
+    <hr>
     <div class="container">
-      <nav>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-        <a href="resume.pdf">Resume</a>
-      </nav>
+      <section id="bio">
+        <h2>Matt Urian</h2>
+        <img src="./assets/image/american-matt.JPG" alt="Matt Urian" height="250" width="300" id="img">
+        <p>This is my first Web Portfolio and I owe it all to <a href="https://bootcamp.case.edu/coding/">
+            Coding Boot Camp</a> held at <a href="https://case.edu/">
+            Case Western Reserve University. </a> I am very passionate out web development and learning new
+          information.As a Junior Developer, I have experience with programs such as HTML, CSS, Java Script, and jQuery.
+          Enjoy working together with others or independently to create web applications. Also, I like that the
+          technology industry is always evolving because the technology is innovative challenging. I advocate change and
+          always embracing new challenges with positive energy.
+        </p>
+      </section>
     </div>
-  </header>
-  <hr>
-    <div class="container">
-    <section id="bio">
-      <h2>Matt Urian</h2>
-      <img src="./assets/image/american-matt.JPG" alt="Matt Urian" height="250" width="300" id="img">
-      <p>This is my first Web Portfolio and I owe it all to <a href="https://bootcamp.case.edu/coding/">
-          Coding Boot Camp</a> held at <a href="https://case.edu/">
-          Case Western Reserve University. </a> I am very passionate out web development and learning new
-        information.As a Junior Developer, I have experience with programs such as HTML, CSS, Java Script, and jQuery.
-        Enjoy working together with others or independently to create web applications. Also, I like that the
-        technology industry is always evolving because the technology is innovative challenging. I advocate change and
-        always embracing new challenges with positive energy.
-      </p>
-    </section>
-    </div>
-  <footer class="container">
-    <p><a class="link" href="https://github.com/popcopy">GitHub |</a> <a class="link" href="https://www.linkedin.com/in/matthew-urian-686673172/">LinkedIn</a></p>
-  </footer>
+    <footer class="container">
+      <p><a class="link" href="https://github.com/popcopy">GitHub |</a> <a class="link"
+          href="https://www.linkedin.com/in/matthew-urian-686673172/">LinkedIn</a></p>
+    </footer>
+  </div>
 </body>
 
 </html>

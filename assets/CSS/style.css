@@ -25,11 +25,17 @@ nav a {
   margin-top: 200px;
 }
 h1{
-  font-family: 'Dancing Script', cursive;
-  font-size: 56px;
+ font-family: 'Merriweather', serif;
+  /* font-family: 'Dancing Script', cursive; */
+ font-size: 56px;
 }
 h3{
   font-family: 'Open Sans Condensed', sans-serif;
+}
+h2{
+ font-size: 40px;
+ text-align: center;
+ font-family: 'Merriweather', serif;
 } 
 .footer {
   margin-top: 340px;
@@ -80,3 +86,103 @@ a.link {
 .card a{
   color: black;
 }
+
+/* small moblie */
+@media only screen and (max-width: 320px){
+  img {
+    width: 100%;
+    height: 170px;
+  }
+  nav {
+      font-family: 'Open Sans Condensed', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 10px;
+  } 
+  #img{
+      /* margin-right: 20px; */
+      width: 175px;
+      height: 175px;
+      /* float: center; */
+  } 
+  h2{
+      font-size: 32px;
+      /* font-family: 'Dancing Script', cursive;  */
+      font-family: 'Merriweather', serif;
+  }  
+  p{
+      font-size: 12px;
+  }
+  
+}
+/* Mobile */
+@media only screen and (max-width: 480px){
+  img {
+    width: 75%;
+    height: 75px;
+  }
+  nav {
+      font-family: 'Open Sans Condensed', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 10px;
+  }
+  #img{
+      /* margin-right: 20px; */
+      width: 100px;
+      height: 100px;
+      /* float: top; */
+  }
+  h2{
+      font-size: 32px;
+      /* font-family: 'Dancing Script', cursive;  */
+      font-family: 'Merriweather', serif;
+  }
+  p{
+      font-size: 16px;
+  }
+  
+  body{
+          background-image: url("../image/lantern.jpg");
+  } 
+
+    
+}
+
+/* Tablet */
+@media only screen and (max-width: 768px){
+  nav {
+      font-family: 'Open Sans Condensed', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 14px;
+  }
+}
+
+/* Desktop */
+@media only screen and (max-width: 992px){
+  
+    img {
+      width: 100%;
+      height: 170px;
+    }
+    
+}
+
+/* Huge */
+@media only screen and (max-width: 1280px){
+    img {
+      width: 100%;
+      height: 170;
+    }
+    .navbar {
+      background-color: rgb(25, 126, 162);  
+
+    }
+    .form-inline .input-group {
+      width: 300px;
+      margin-left: 30px;
+    }
+  } 
+
+
