@@ -4,15 +4,14 @@ body {
   color: #777777;
   background-color: rgb(214, 245, 234);
 }
-.footer{
-    background-color:; 
-    text-align: center; 
+.footer {
+  background-color:; 
+  text-align: center; 
 }
-h1{
-    text-align: center;
-    color: darkslategrey
-
+h1 {
+  text-align: center;
+  color: darkslategrey
 }
-p{
-    text-align: center;
+p {
+  text-align: center;
 }

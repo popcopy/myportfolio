@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url("../image/lantern.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,26 +20,25 @@ nav a {
     line-height: 20px;
     color:black;
     border-left: 1px solid black;
-    }
-h2{
+}
+h2 {
  font-size: 56px;
  font-family: 'Merriweather', serif;
  /* font-family: 'Assistant', sans-serif; */
  /* font-family: 'Oswald', sans-serif; */
  /* font-family: 'Dancing Script', cursive;  */
 }
-#bio a{
+#bio a {
     color: rgb(89, 99, 87);
 }
-/* #bio, */
-#img{
+#img {
    float: left; 
 }
-#bio{
+#bio {
     width: 70%;
     float: unset;
 }
-#img{
+#img {
     margin-right: 20px;
     width: 300px;
     height: 300px;
@@ -51,7 +50,7 @@ footer {
     font-family: 'Open Sans Condensed', sans-serif;
     padding-top: 200px;
 }
-footer a{
+footer a {
     color: black;
 }
 /* small moblie */
@@ -62,18 +61,18 @@ footer a{
         margin: 0 auto;
         font-size: 10px;
     } 
-    #img{
+    #img {
         /* margin-right: 20px; */
         width: 175px;
         height: 175px;
         /* float: center; */
     } 
-    h2{
+    h2 {
         font-size: 32px;
         /* font-family: 'Dancing Script', cursive;  */
         font-family: 'Merriweather', serif;
     }  
-    p{
+    p {
         font-size: 12px;
     }
     
@@ -86,18 +85,18 @@ footer a{
         margin: 0 auto;
         font-size: 10px;
     }
-    #img{
+    #img {
         /* margin-right: 20px; */
-        width: 105px;
-        height: 105px;
-        /* float: top; */
+        width: 175px;
+        height: 175px;
+        float: top;
     }
-    h2{
+    h2 {
         font-size: 32px;
         /* font-family: 'Dancing Script', cursive;  */
         font-family: 'Merriweather', serif;
     }
-    p{
+    p {
         font-size: 16px;
     }
     
