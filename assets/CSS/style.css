@@ -20,19 +20,18 @@ nav a {
   color:black;
   border-left: 1px solid black;
 }
-#name{
+#name {
   text-align: center;
   margin-top: 200px;
 }
-h1{
+h1 {
  font-family: 'Merriweather', serif;
-  /* font-family: 'Dancing Script', cursive; */
  font-size: 56px;
 }
-h3{
+h3 {
   font-family: 'Open Sans Condensed', sans-serif;
 }
-h2{
+h2 {
  font-size: 40px;
  text-align: center;
  font-family: 'Merriweather', serif;
@@ -63,10 +62,10 @@ a.link {
 .wrapper {
   padding-left: 50px;
   padding-right: 50px;
- }
- h2{
+}
+h2{
   font-family: 'Open Sans Condensed', sans-serif;
- }
+}
 .btn-primary {
   background-color: rgb(60, 97, 139);
   border: none;

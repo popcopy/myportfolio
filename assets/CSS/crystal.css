@@ -1,4 +1,4 @@
-body{
+body {
   background-color: rgb(80, 101, 107);
 }
 #caveBackGrd {
@@ -7,7 +7,6 @@ body{
   text-align: center;
   color: rgb(255, 255, 255);
 }
-
 #reset:hover {
 	background-color:teal;
   border-color: black;
@@ -29,13 +28,13 @@ button:hover {
     font-size: 15px;
 
 }
-#scoreSec{
+#scoreSec {
     color: azure;
 }
-#winLose{
+#winLose {
     color: azure;
 }
-#ranNumSec{
+#ranNumSec {
     color: azure;
 }
 
@@ -51,7 +50,6 @@ button:hover {
   } 
   h2{
       font-size: 32px;
-      /* font-family: 'Dancing Script', cursive;  */
       font-family: 'Merriweather', serif;
   }  
   h5{
@@ -75,15 +73,14 @@ button:hover {
     width: 100px;
     height: 100px;
     float: center;
-} 
-h2{
-    font-size: 32px;
-    /* font-family: 'Dancing Script', cursive;  */
-    font-family: 'Merriweather', serif;
-}  
-p{
-  font-size: 20px;
-}
+  } 
+  h2{
+      font-size: 32px;
+      font-family: 'Merriweather', serif;
+  }  
+  p{
+    font-size: 20px;
+  }
 
 }
 
@@ -94,16 +91,15 @@ p{
     width: 100px;
     height: 100px;
     /* float: center; */
-} 
-h2{
-    font-size: 32px;
-    /* font-family: 'Dancing Script', cursive;  */
-    font-family: 'Merriweather', serif;
-}  
-p{
-  font-size: 20px;
-}
- 
+  } 
+  h2{
+      font-size: 32px;
+      font-family: 'Merriweather', serif;
+  }  
+  p{
+    font-size: 20px;
+  }
+
 }
 
 /* Desktop */
@@ -113,19 +109,13 @@ p{
     width: 100px;
     height: 100px;
     float: center;
-} 
-h2{
-    /* font-size: 32px; */
-    /* font-family: 'Dancing Script', cursive;  */
-    font-family: 'Merriweather', serif;
-}  
-p{
-  font-size: 20px;
-}
-  
+  } 
+  h2{
+      font-family: 'Merriweather', serif;
+  }  
+  p{
+    font-size: 20px;
+  }
+
 }
 
-/* Huge
-@media only screen and (max-width: 1280px){
-
-}  */
