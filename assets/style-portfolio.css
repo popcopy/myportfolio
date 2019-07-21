@@ -1,0 +1,265 @@
+body {
+  /* margin: 0; */
+  /* padding: 0; */
+  /* background-color: lightgrey; */
+  background-image: url(http://www.grfxpro.com/uploads/img/10032016152751.jpg);
+  animation: animatedBackground 10s ease-in-out infinite alternate;    
+}
+* {
+  box-sizing: border-box;
+}
+@keyframes animatedBackground {
+from { background-position: 0% 0%; }
+to { background-position: 50% 0%; }
+}
+
+.container {
+  font-size: 1.5em;
+  /* width: 100%;
+  height: 100vh; */
+  display: grid;
+  grid-template-areas: 
+      "sidebar"
+      "content"
+      "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: 130px auto auto;
+}
+
+.content,
+.sidebar, 
+.footer {
+  padding: 1em;
+
+}
+
+.content{
+  grid-area: content;
+  padding: 1rem;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: linear-gradient(to right, 
+  rgb(42, 42, 42),
+  rgb(90, 90, 90));
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  padding: 1em 0;
+}
+
+nav li a {
+  color: white;
+  font-weight: 700;
+  opacity: 0.6;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  opacity: 0.9;
+}
+.text-primary{
+  color: #0893C8;
+}
+h2 {
+  color: white;
+  opacity: 0.9;
+  text-align: center;
+}
+.card-container {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  box-shadow: 0px 1px 5px #555;
+  background-color: white;
+  border: 1px solid #FF8500;
+  box-shadow: 5px 10px 20px rgb(141, 141, 135) inset;
+}
+
+.card-title {
+  font-size: 16px;
+  /* padding: .5rem; */
+  text-align: center;
+
+}
+
+.card-description {
+  padding: .5rem;
+  line-height: 1.6em;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  padding: 10px 20px;
+  background-color:white;
+  /* color: white; */
+  text-decoration: none;
+  text-align: center;
+  transition:  .3s ease-out;
+}
+.button:hover {
+  background-color: rgb(134, 133, 136);
+}
+
+.card-container img {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto; 
+  width: auto;
+ border: 1px solid rgb(110, 110, 103);
+
+}
+.footer {
+  grid-area: footer;
+}
+
+footer {
+  color: white;
+}
+
+footer ul {
+max-width: 640;
+text-align: center; 
+flex-direction: row; 
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #FF8500;
+}
+
+footer p {
+  font-size: 0.8em;
+  color: rgb(44, 39, 25);
+}
+
+
+footer .vert ul {
+  flex-direction: column;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content:flex-end;
+  align-content: flex-end;
+  padding-bottom: 10px;
+}
+
+footer .vert .contact-link:hover{
+  opacity:0.5;
+  /* background:  rgb(216, 177, 137);  */
+  color: rgb(28, 196, 243);
+}
+
+footer .icon {
+  float: left;
+  padding-top: 50px;
+  padding-left: 175px;
+}
+
+footer ul li {
+  list-style: none;
+  display: flex;
+  font-size: 0.8em;
+}
+.linkedin, .github {
+  align-content: center;
+  color: #FF8500;
+}
+
+.linkedin .fa-linkedin-in:hover, .github .p-3:hover {
+  opacity:0.5;
+  /* background:  rgb(216, 177, 137);  */
+  color: #0893C8;
+}
+
+
+@media (min-width: 1040px) {
+  .container {
+      grid-template-areas:
+          "sidebar content"
+          "sidebar footer";
+      grid-template-columns: 200px 1fr;
+      grid-template-rows: 1fr 150px;
+  }
+
+  nav ul {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+  }
+
+  .sidebar {
+      background: linear-gradient(
+          rgba(245, 107 140, 1),
+          rgba(218, 103 230, 1),
+          rgba(130, 125 245, 1)
+      );
+      padding-top: 3em;
+  }
+
+  .hero {
+      text-align: left;
+      margin: 2em auto;
+  }
+
+  .hero img {
+      width: 250px;
+      float: right;
+  }
+
+  .hero h1 {
+      font-size:  3em;
+  }
+
+  .hero p {
+      width: 60%;
+  }
+
+  .action-btn {
+      align-self: center;
+  }
+
+  .footer {
+      grid-area: footer;
+      display: inline;
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer .icon {
+      float: left;
+      padding-top: 50px;
+      padding-left: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  footer .icon {
+    display: none;
+  }
+}
