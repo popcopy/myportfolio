@@ -18,6 +18,7 @@ body {
     border: 1px solid #FF8500;
     color: white;
     transition: all 0.3s ease-in-out;
+    font-size: 20px;
 }
 
 #btn-view-work:hover {
@@ -25,9 +26,6 @@ body {
     border: 3px solid  #0893C8;
 }
 
-#btn-view-work i {
-    transition: all 0.3s ease-in-out;
-}
 .text-primary {
     color: #0893C8;
 }
@@ -62,9 +60,15 @@ body {
     color: #0893C8;
 }
 
-footer {
-    padd
+@media only screen and (max-width: 320px) {
+    #btn-view-work {
+        font-size: 16px;
+    }  
+    #name {
+        font-size: 13px;
+    }
 }
+
 
 
 
