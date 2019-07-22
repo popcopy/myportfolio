@@ -101,7 +101,7 @@ h2 {
 
 .card-description {
   padding: .5rem;
-  line-height: 1.6em;
+  line-height: 1.3em;
   text-align: center;
 }
 
@@ -262,4 +262,15 @@ footer ul li {
   footer .icon {
     display: none;
   }
+  .card-description {
+   font-size: 16px;
+  }
+
+  nav li a{
+    font-size: 20px; 
+}
+
+h2 {
+  font-size: 28px;
+}
 }

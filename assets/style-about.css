@@ -242,4 +242,13 @@ footer ul li {
     footer .icon {
       display: none;
     }
+     h2 {
+        font-size: 18px; 
+    }
+    p {
+        font-size: 16px;
+    }
+    nav li a{
+        font-size: 20px; 
+    }
 }
