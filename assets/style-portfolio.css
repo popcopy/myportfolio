@@ -1,20 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* padding: 0; */
   /* background-color: lightgrey; */
   background-image: url(http://www.grfxpro.com/uploads/img/10032016152751.jpg);
   animation: animatedBackground 10s ease-in-out infinite alternate;    
 }
-* {
-  box-sizing: border-box;
-}
+
 @keyframes animatedBackground {
 from { background-position: 0% 0%; }
 to { background-position: 50% 0%; }
 }
 
 .container {
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   width: 100%;
   height: 100vh; 
   display: grid;
@@ -60,7 +63,8 @@ nav li {
 
 nav li a {
   color: white;
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-size: 24px;
   opacity: 0.6;
   text-decoration: none;
   transition: 0.3s;
@@ -70,7 +74,7 @@ nav li a:hover {
   opacity: 0.9;
 }
 .text-primary{
-  color: #0893C8;
+  color: rgb(43, 165, 212);
 }
 h2 {
   color: white;
@@ -153,12 +157,6 @@ footer ul li a {
   color: #FF8500;
 }
 
-footer p {
-  font-size: 0.8em;
-  color: rgb(44, 39, 25);
-}
-
-
 footer .vert ul {
   flex-direction: column;
   display: -webkit-flex;
@@ -167,7 +165,7 @@ footer .vert ul {
   flex-wrap: wrap;
   -webkit-align-content:flex-end;
   align-content: flex-end;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 footer .vert .contact-link:hover{
@@ -223,24 +221,6 @@ footer ul li {
       padding-top: 3em;
   }
 
-  .hero {
-      text-align: left;
-      margin: 2em auto;
-  }
-
-  .hero img {
-      width: 250px;
-      float: right;
-  }
-
-  .hero h1 {
-      font-size:  3em;
-  }
-
-  .hero p {
-      width: 60%;
-  }
-
   .action-btn {
       align-self: center;
   }
@@ -250,7 +230,9 @@ footer ul li {
       display: inline;
       grid-template-columns: repeat(2, 1fr);
   }
-
+  .vert {
+    font-size: 24px;
+  }
   footer .icon {
       float: left;
       padding-top: 50px;
@@ -262,22 +244,19 @@ footer ul li {
   footer .icon {
     display: none;
   }
+
   .card-description {
    font-size: 16px;
   }
 
   nav li a{
-    font-size: 18px; 
-}
+    font-size: 20px; 
+  }
 
-h2 {
+  h2 {
   font-size: 28px;
-}
+  }
 }
 
-@media only screen and (max-width: 320px) {
-  nav li a{
-    font-size: 15px; 
-}
-}
+
 
