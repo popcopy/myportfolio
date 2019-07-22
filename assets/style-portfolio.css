@@ -29,7 +29,7 @@ to { background-position: 50% 0%; }
 .content,
 .sidebar, 
 .footer {
-  padding: 1em;
+  /* padding: 1em; */
 
 }
 
