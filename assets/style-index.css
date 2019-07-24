@@ -1,3 +1,7 @@
+html {
+    padding: 0;
+}
+
 body {
     margin: 0;
     /* margin-bottom: 15px; */
@@ -7,6 +11,7 @@ body {
     background-image: url(http://www.grfxpro.com/uploads/img/10032016152751.jpg) ;
     color: white;
     animation: animatedBackground 10s ease-in-out infinite alternate;
+    font-family: 'PT Sans', sans-serif;
 }
 @keyframes animatedBackground {
 	from { background-position: 0% 0%; }
@@ -60,12 +65,25 @@ body {
     color: #0893C8;
 }
 
+@media only screen and (max-width: 600px) {
+    #name {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #name {
+        font-size: 12px;
+    }
+}
+
+
 @media only screen and (max-width: 320px) {
     #btn-view-work {
         font-size: 14px;
     }  
     #name {
-        font-size: 13px;
+        font-size: 10px;
     }
 }
 
